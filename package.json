@@ -1,6 +1,6 @@
 {
   "name": "callback-promise-union",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise with callback",
   "main": "index.js",
   "repository": "https://github.com/LnsooXD/node-callback-promise",
