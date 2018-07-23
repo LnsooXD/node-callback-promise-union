@@ -10,5 +10,8 @@
     "index.js",
     "index.d.ts",
     "README.md"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
