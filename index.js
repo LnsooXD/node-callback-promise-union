@@ -3,8 +3,8 @@
  * @Author: LnsooXD<LnsoXD@gmail.com>
  * @Date: 2018-07-23 10:21:00
  * @Last Modified by: LnsooXD<LnsooXD@gmail.com>
- * @Last Modified time: 2018-07-23 11:14:59
- * 
+ * @Last Modified time: 2018-07-23 13:58:45
+ *
  * Copyright(c) 2018 LnsooXD
  * MIT Licensed
  */
@@ -40,7 +40,7 @@ class CallbackPromise {
 
     this[KEY_CALLBACK] = (error, result) => {
       originCallback(error, result);
-      return error ? this.originReject(error) : this.originResolve(result);
+      return error ? originReject(error) : originResolve(result);
     };
     this[KEY_DELEGATE] = (error, result) => this[KEY_CALLBACK](error, result);
   }
