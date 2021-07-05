@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Promise with callback",
   "main": "index.js",
-  "repository": "https://github.com/LnsooXD/node-callback-promise",
+  "repository": "https://github.com/LnsooXD/node-callback-promise-union",
   "author": "LnsooXD<LnsooXD@gmail.com>",
   "license": "MIT",
   "files": [
